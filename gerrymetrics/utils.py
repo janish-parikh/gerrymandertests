@@ -33,8 +33,7 @@ def parse_results(input_filepath, start_year=1948, coerce_odd_years=False):
     new = pd.DataFrame(grouped['D Voteshare'].apply(list))
     new['District Numbers'] = grouped['District'].apply(list)
     
-#     if df.columns.contains('Dem Votes'):
-      if 'Dem Votes' in df.columns:
+    if 'Dem Votes' in df.columns:
         new['Weighted Voteshare'] = grouped['Dem Votes'].apply(sum) / (grouped['Dem Votes'].apply(sum) +
                                                          grouped['GOP Votes'].apply(sum))
         
@@ -50,9 +49,8 @@ def yearstatedf():
     '''
     
     index = pd.MultiIndex(levels=[[], []],
-                          labels=[[], []],
+                          codes=[[],[]],
                           names=['Year', 'State'])
-
     df = pd.DataFrame(index=index, dtype=object)
     return df
     
@@ -214,6 +212,3 @@ def generate_website_jsons():
             null = -1 # or 'null'?
             out = json.dumps(tests, default=default).replace('NaN', '-1')
             file.write(out)
-            
-        
-# generate_website_jsons()
