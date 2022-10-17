@@ -1,0 +1,175 @@
+{
+  "bias": {
+    "bestS": 22,
+    "bestSf": 0.55,
+    "estS": 26.9993,
+    "estSf": 0.675,
+    "deviation": -0.125,
+    "tOf": -0.0238,
+    "fptpS": 26,
+    "bS50": -0.0235,
+    "bV50": -0.0092,
+    "decl": 2.3074,
+    "gSym": -0.0141,
+    "gamma": -0.0002,
+    "eG": -0.0541,
+    "bSV": -0.0243,
+    "prop": -0.1146,
+    "mMs": -0.0047,
+    "mMd": 0.0191,
+    "lO": 0.0895,
+    "score": 68
+  },
+  "responsiveness": {
+    "cSimple": 11,
+    "cD": 9.4022,
+    "cDf": 0.2351,
+    "bigR": 2.8962,
+    "littleR": 2.8935,
+    "mIR": 0.1456,
+    "rD": 9.4022,
+    "rDf": 0.2351,
+    "score": 31
+  },
+  "minority": {
+    "pivotByDemographic": {
+      "minority": {
+        "pct35_40": 4,
+        "pct40_45": 3,
+        "pct45_50": 1,
+        "pct50_55": 2,
+        "pct55_60": 4,
+        "pct60Plus": 10,
+        "vapPct": 0.455263,
+        "propSeats": 18
+      },
+      "black": {
+        "pct35_40": 0,
+        "pct40_45": 1,
+        "pct45_50": 0,
+        "pct50_55": 0,
+        "pct55_60": 0,
+        "pct60Plus": 1,
+        "vapPct": 0.145279,
+        "propSeats": 6
+      },
+      "hispanic": {
+        "pct35_40": 1,
+        "pct40_45": 0,
+        "pct45_50": 2,
+        "pct50_55": 1,
+        "pct55_60": 0,
+        "pct60Plus": 1,
+        "vapPct": 0.197217,
+        "propSeats": 8
+      },
+      "pacific": {
+        "pct35_40": 0,
+        "pct40_45": 0,
+        "pct45_50": 0,
+        "pct50_55": 0,
+        "pct55_60": 0,
+        "pct60Plus": 0,
+        "vapPct": 0.001484,
+        "propSeats": 0
+      },
+      "asian": {
+        "pct35_40": 0,
+        "pct40_45": 0,
+        "pct45_50": 0,
+        "pct50_55": 0,
+        "pct55_60": 0,
+        "pct60Plus": 0,
+        "vapPct": 0.10903,
+        "propSeats": 4
+      },
+      "native": {
+        "pct35_40": 0,
+        "pct40_45": 0,
+        "pct45_50": 0,
+        "pct50_55": 0,
+        "pct55_60": 0,
+        "pct60Plus": 0,
+        "vapPct": 0.014785,
+        "propSeats": 1
+      }
+    },
+    "opportunityDistricts": 5.8486,
+    "proportionalOpportunities": 19,
+    "coalitionDistricts": 23.0137,
+    "proportionalCoalitions": 18,
+    "score": 66
+  },
+  "compactness": {
+    "score": 51,
+    "reock": {
+      "raw": 0.3774,
+      "normalized": 51
+    },
+    "polsby": {
+      "raw": 0.302,
+      "normalized": 50
+    }
+  },
+  "splitting": {
+    "score": 24,
+    "county": {
+      "raw": 1.8058,
+      "normalized": 0
+    },
+    "district": {
+      "raw": 1.2897,
+      "normalized": 48
+    },
+    "details": {
+      "unexpectedAffected": 0.4167,
+      "nSplits": 56,
+      "countiesSplitUnexpectedly": [
+        "Cumberland",
+        "Hunterdon",
+        "Warren"
+      ],
+      "nTooBigCounties": 30,
+      "tooBigName": [
+        "Atlantic",
+        "Bergen",
+        "Burlington",
+        "Camden",
+        "Essex",
+        "Gloucester",
+        "Hudson",
+        "Mercer",
+        "Middlesex",
+        "Monmouth",
+        "Morris",
+        "Ocean",
+        "Passaic",
+        "Somerset",
+        "Union"
+      ],
+      "nCountiesSplit": 18,
+      "nSingleCountyDistricts": 15,
+      "singleCountyDistrictMax": 30,
+      "countiesWithSplits": [
+        "Atlantic (3)",
+        "Bergen (5)",
+        "Burlington (3)",
+        "Camden (2)",
+        "Cumberland (1)",
+        "Essex (4)",
+        "Gloucester (2)",
+        "Hudson (3)",
+        "Hunterdon (2)",
+        "Mercer (2)",
+        "Middlesex (6)",
+        "Monmouth (4)",
+        "Morris (3)",
+        "Ocean (3)",
+        "Passaic (5)",
+        "Somerset (4)",
+        "Union (3)",
+        "Warren (1)"
+      ]
+    }
+  }
+}
